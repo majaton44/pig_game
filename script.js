@@ -115,6 +115,6 @@ document.querySelector('.overlay').addEventListener('click', closeWindow);
 
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !rules.classList.contains('hidden')) {
-    closeWindow;
+    closeWindow();
   }
 });
